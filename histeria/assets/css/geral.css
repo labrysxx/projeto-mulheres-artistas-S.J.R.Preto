@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.contato a{
+    text-decoration: none;
+}
+
+.col-4{
+    position: fixed;
+    right: 880px;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+}
+
+.artista{
+    display: block;
+    width: 1px;
+}
+
+.col-8{
+    position: absolute;
+    left: 300px;
+}
+
+.breadcrumb{
+    margin-top: 30px;
+}

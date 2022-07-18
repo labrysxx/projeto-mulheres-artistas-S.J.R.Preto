@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.image-bg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.categoria{
+    display: flex;
+    margin: 10px 300px 30px 0;
+    justify-content: space-between;
+}
+
+.botao-enviar{
+    margin-top: 7px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+}

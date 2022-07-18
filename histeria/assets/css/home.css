@@ -1,0 +1,17 @@
+.card-columns{
+    display: inline-block
+}
+
+.title{
+    width: 40%;
+}
+
+.title img{
+    width: 100%;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
