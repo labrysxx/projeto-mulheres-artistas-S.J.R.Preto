@@ -27,3 +27,6 @@ img{
     border: 1px solid gray;
     padding: 5px 20px;
 }
+.rounded-circle {
+   height: 20px;
+}
