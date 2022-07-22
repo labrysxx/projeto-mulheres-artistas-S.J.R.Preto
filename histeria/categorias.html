@@ -14,16 +14,63 @@
 </head>
 
 <body>
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">home</a></li>
-          <li class="breadcrumb-item active cat-breadcrumb" aria-current="page">escritoras</li>
-        </ol>
-    </nav>
-    <div class="container text-center">
-        
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-5">
+          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="" width="80%" alt="">
+          </a>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Digite o nome da artista" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+        </header>
+
+        <header class="px-0 pt-4">
+            <div class="row border-bottom">
+                <div class="col mb-1">
+                    <ul class="nav col-12 col-md-auto mb-2 justify-content-start mb-md-0">
+                        <li><a href="#" class="nav-link mx-3 px-0 link-secondary">Mural</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="nav-link mx-3 px-0 dropdown-toggle link-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Artistas
+                                </a>
+                    
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Escritoras</a></li>
+                                  <li><a class="dropdown-item" href="#">Pintoras</a></li>
+                                  <li><a class="dropdown-item" href="#">Musicistas</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#" class="nav-link mx-3 px-0 link-secondary">Quem somos</a></li>
+                        <li><a href="#" class="nav-link mx-3 px-0 link-secondary">Fale com a gente!</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-4">
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                        <button type="button" class="btn btn-primary">Sign-up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- header -->
+
+    <div class="container mt-0 mb-3">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">home</a></li>
+              <li class="breadcrumb-item active cat-breadcrumb" aria-current="page">escritoras</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- breadcrumb -->
+
+    <div class="container text-center mt-5">
         <div class="row">
-            
             
             <div class="col-lg-4">
                 <img class="rounded-circle" src="assets/img/artista-1.jpg" alt="Generic placeholder image" width="140" height="140">
@@ -66,7 +113,8 @@
                 <p><a class="btn btn-outline-info" href="artista.html" role="button">Saiba mais</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-    </div> 
+    </div>
+    <!-- artistas --> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
